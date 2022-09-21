@@ -1,0 +1,106 @@
+
+body{
+  background-image: url(background.jpg);
+  position: relative;
+  background-size: 100%
+
+}
+
+section {
+  text-align: center;
+  padding: 6%;
+}
+
+.transbox{
+  position:absolute;
+  margin: auto;
+  top: 10px;
+  right: 50px;
+  left: 50px;
+  height: 100%;
+  width: 64%;
+  background-color: black;
+  opacity: 0.5;
+  border-radius: 10px
+
+}
+
+.logo {
+  position: relative;
+  margin: auto;
+  width: 15%;
+
+}
+
+.text-logo {
+  position: relative;
+  color: #00dd00;
+  font-family: Poppins;
+  font-weight: bold;
+  font-size: 18px;
+
+}
+
+.topnav {
+  position: relative;
+  margin: auto;
+  background-color: #00dd00;
+  padding: 5px;
+  width: 60%;
+
+}
+
+button {
+  font-family: sans-serif;
+  font-size: 8px;
+
+}
+
+
+main {
+  position: relative;
+  margin: inherit;
+  left: 20%;
+  font-family: Poppins;
+  text-align: left;
+  color: #ffffff;
+
+  }
+
+.mono {
+  font-size: 16px;
+
+}
+
+main > div {
+  font-size: 12px;
+
+}
+
+.bar {
+  border-radius: 4px;
+  height: 11px;
+  padding: 5px;
+
+}
+
+.bar.yellow {
+  background-color: #f5b453;
+  width: 20%;
+
+}
+
+.bar.green {
+  background-color: #1ec31e;
+  width: 35%;
+
+}
+
+.bar.red {
+  background-color: #be4141;
+  width: 8%;
+
+}
+.freccia:before {
+  content: "\21a6";
+}
